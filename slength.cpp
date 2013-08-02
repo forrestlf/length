@@ -99,4 +99,5 @@ int main()
 
 		fscanf(fin, "%c",&op);
 	}
+	return 0;
 }
