@@ -54,6 +54,13 @@ int main()
 
 	fprintf(fout,"417533880@163.com\n\n");
 
+	if(!fin)
+	{
+
+		fprintf(fout, "File is exception.");
+		return 1;
+	}
+
 
 	while(i<6)
 	{
